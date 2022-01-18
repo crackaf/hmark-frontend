@@ -16,4 +16,5 @@ module.exports = {
     github: "https://github.com/crackaf",
   },
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || "#",
+  plugins: [`gatsby-plugin-fontawesome-css`],
 };
