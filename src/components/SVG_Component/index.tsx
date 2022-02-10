@@ -249,7 +249,7 @@ function SVG_File({ filename }: { filename: string }) {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           style={{ height: "100%" }}
-          viewBox="-457 -181.5 950 388"
+          viewBox="-350 -175.5 930 490"
         >
           <path
             fill="#FFF"
@@ -367,6 +367,9 @@ function SVG_File({ filename }: { filename: string }) {
           />
         </svg>
       );
+      break;
+    default:
+      return <></>;
       break;
   }
 }
